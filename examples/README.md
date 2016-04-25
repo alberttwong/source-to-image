@@ -51,5 +51,5 @@ s2i build --incremental=true test/ nginx-centos7 nginx-app
 ```
 This will run the `save-artifacts` script that has the code which will save your artifacts from the previously built application image, and then inject those artifacts into the new image according to the logic you specified in the `assemble` script. 
 
-####Best Practices on Image Creation
-Please also read [https://github.com/openshift/openshift-docs/blob/master/creating_images/guidelines.adoc](https://github.com/openshift/openshift-docs/blob/master/creating_images/guidelines.adoc) on best practices when creating a image. 
+####Best Practices on OpenShift S2I Image Creation
+Please also read [https://github.com/openshift/openshift-docs/blob/master/creating_images/guidelines.adoc](https://github.com/openshift/openshift-docs/blob/master/creating_images/guidelines.adoc) on best practices when creating an OpenShfit S2I image. 
